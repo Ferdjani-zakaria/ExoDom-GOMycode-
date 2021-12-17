@@ -1,0 +1,1 @@
+export const web_techsARR = ["Facebook","Google","Microsoft","Apple","IBM","Oracle","amazon"];
