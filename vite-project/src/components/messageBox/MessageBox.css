@@ -1,0 +1,50 @@
+.messageBox-container{
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    height: 50vh;
+    top: 0;
+    background-color: wheat;
+}
+
+.userName{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.messageStart{
+    text-align: start;
+    text-decoration: underline;
+    font-size: 28px;
+    color: grey;
+    font-weight: 400;
+}
+
+.messageBox-container p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: start;
+}
+
+.messageInput{
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+    box-shadow: -3px 3px;
+    width: 80%;
+    letter-spacing: 2px;
+
+
+}
+
+.messageBtn{
+    
+    background-color: rgb(255, 248, 233);
+    color: grey;
+    box-shadow: -1px 2px;
+    width: 30%;
+    margin: 20px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}

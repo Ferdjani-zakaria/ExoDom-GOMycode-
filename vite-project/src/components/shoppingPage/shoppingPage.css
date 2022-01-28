@@ -1,0 +1,16 @@
+.div-container-of-productContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.shoppingPage-btn{
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 -2px 1px;
+}
+
+.shippingPage-solde{
+    float: right;
+    background-color: black;
+}

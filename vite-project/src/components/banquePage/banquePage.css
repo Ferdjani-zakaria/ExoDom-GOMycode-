@@ -1,0 +1,22 @@
+.solde{
+    text-align: right;
+    margin-right:50px ;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.service-title{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 80px;
+ 
+}
+
+.banquePage-title{
+    width: 50%;
+    margin: 20px auto;
+    font-weight: 900;
+    font-size: 42px;
+}

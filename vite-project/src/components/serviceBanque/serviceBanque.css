@@ -1,0 +1,28 @@
+.serviceBanque-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.serviceBanque-btn{
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.serviceBanque-input{
+    padding: 10px 5px;
+    width: 280px;
+    font-size: 16px;
+    
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 500;
+}
