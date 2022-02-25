@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="calculatrice.css" />
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calc">
+      <div class="cal-themes">
+        <p class="log">Calc</p>
+        <!-- <input type="checkbox" id="toggle" class="theme-toggler__checkbox" checked/><nav> -->
+        <label for="toggle" class="theme-toggler settings-option" id="theme-toggler">
+        <input type="checkbox" id="toggle" class="theme-toggler__checkbox" checked/>
+        <span aria-hidden="true" class="theme-toggler__switch"></span>
+  </nav>
+      </div>
+      <div class="result-display"></div>
+      <div class="numbers">
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button id="clear">DEL</button>
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="num">+</button>
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="num">-</button>
+        <button class="num">.</button>
+        <button class="num">0</button>
+        <button class="num">/</button>
+        <button class="num">*</button>
+        <button id="reset">RESET</button>
+        <button id="equals">=</button>
+      </div>
+    </div>
+<script src="./calculatrice.js"></script>
+   
+  </body>
+</html>

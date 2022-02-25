@@ -1,0 +1,37 @@
+.Home-container{
+    background-image: url(../../../assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 101.8vh;
+    margin-top: -20px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Home-btn{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    font-weight: 200;
+    font-size: 22px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: none;
+}
+
+.Home-btn-container{
+    
+    margin-top: 45vh;
+    width: 35%;
+    
+}
+
+.Home-txt{
+    color: white;
+    margin-top: 20vh;
+    width: 20%;
+}

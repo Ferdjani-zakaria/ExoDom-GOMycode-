@@ -1,0 +1,55 @@
+.container{
+    background-color: #282c34;
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+    background-image: url('../../../logoG.svg');
+    background-repeat: no-repeat;
+    background-position: 750px 280px;
+}
+
+.container-under{
+    text-align: center;
+    max-width: 85%;
+    margin-right: auto ;
+    margin-left: auto;
+
+}
+
+.container h1{
+    font-size: 4em;
+    color: rgb(97, 218, 251);
+    margin-bottom: 0;
+}
+
+.container h3{
+    font-size: 2em;
+    font-weight: 200;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+button{
+    padding: 15px 35px;
+    margin-right: 15px;
+    background-color: rgb(97, 218, 251);
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out
+    
+}
+ 
+button:hover{
+    background-color: white;
+}
+
+.container a{
+    color: #61dafb;
+    transition: background-color 0.8s ease-out
+}
+
+a:hover{
+    color: white;
+}

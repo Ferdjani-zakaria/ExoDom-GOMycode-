@@ -1,0 +1,47 @@
+.nav-container{
+    background-color: #20232a;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+.navBar{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 10px;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navBar-left{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.in-nav{
+    display: flex;
+    gap: 15px;
+}
+
+.blackLive{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.logo{
+    height: 30px;
+    color: rgb(46, 43, 43);
+}
+

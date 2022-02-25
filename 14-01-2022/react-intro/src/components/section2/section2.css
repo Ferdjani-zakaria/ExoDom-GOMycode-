@@ -1,0 +1,6 @@
+.container1{
+    display: flex;
+    gap: 10px;
+    max-width: 85%;
+    margin: 0 auto;
+}
